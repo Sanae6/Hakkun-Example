@@ -20,7 +20,7 @@
       in
       {
         formatter = pkgs.nixfmt-tree;
-        devShells.default = build.devShell;
+        devShells.default = build.devShell "sys";
       }
     );
 }
